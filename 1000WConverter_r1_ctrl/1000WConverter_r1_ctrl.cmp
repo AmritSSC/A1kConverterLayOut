@@ -1,0 +1,363 @@
+Cmp-Mod V01 Created by PcbNew   date = 2/8/2019 7:34:34 PM
+
+BeginCmp
+TimeStamp = 5C4D7AEE
+Path = /5B5CC0A9/5C4C566E
+Reference = T1;
+ValeurCmp = TXFMR_Pushpull;
+IdModule  = ADH_footprints:TXFMR_Pushpull;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAC84
+Path = /5B5CC0A9/5C483F29
+Reference = C1;
+ValeurCmp = 2700u;
+IdModule  = Capacitors_THT:CP_Radial_D12.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAC97
+Path = /5B5CC0A9/5C4D3920
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAD54
+Path = /5B5CC0A9/5C47C5C7
+Reference = Co1;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAD67
+Path = /5B5CC0A9/5C47EFBB
+Reference = Co2;
+ValeurCmp = 10u;
+IdModule  = Capacitors_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAD7A
+Path = /5B5CC0A9/5C4D65B2
+Reference = Co4;
+ValeurCmp = 10u;
+IdModule  = Capacitors_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAD8B
+Path = /5B60C764/5B6586C8
+Reference = Coa3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DADAF
+Path = /5B60C764/5B6586D8
+Reference = Cob3;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_THT:CP_Radial_Tantal_D6.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DADC2
+Path = /5B60C764/5B65870B
+Reference = Cob4;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_THT:CP_Radial_Tantal_D6.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DADF4
+Path = /5C2711CF/5C27014F
+Reference = Dd1;
+ValeurCmp = D;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE6D
+Path = /5B5CC0A9/5C48A0EB
+Reference = L1;
+ValeurCmp = 1u;
+IdModule  = Inductors_SMD:L_7.3x7.3_H4.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE88
+Path = /5B5CC0A9/5B62256D
+Reference = Pd22;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAED0
+Path = /5B657C9A
+Reference = Po1;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_2.5mmdrill_12Gauge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAED9
+Path = /5C49188C
+Reference = Po2;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_2.5mmdrill_12Gauge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C56BC26
+Path = /5B5CC0A9/5C570C9B
+Reference = Gate_Iso1;
+ValeurCmp = SI8271-pop;
+IdModule  = ADH_footprints:Si8271-pop;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C56C213
+Path = /5B5CC0A9/5C574A30
+Reference = Gate_Iso2;
+ValeurCmp = SI8271-pop;
+IdModule  = ADH_footprints:Si8271-pop;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C56C9BE
+Path = /5B5CC0A9/5C5784A1
+Reference = Gate_Iso3;
+ValeurCmp = SI8271-pop;
+IdModule  = ADH_footprints:Si8271-pop;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C56C9E5
+Path = /5B5CC0A9/5C5784EB
+Reference = Gate_Iso4;
+ValeurCmp = SI8271-pop;
+IdModule  = ADH_footprints:Si8271-pop;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DACA8
+Path = /5B60C764/5B6586DE
+Reference = Cdci3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DACB9
+Path = /5B60C764/5B658711
+Reference = Cdci4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAD9C
+Path = /5B60C764/5B6586FB
+Reference = Coa4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DADD1
+Path = /5B60C764/5B6586D2
+Reference = DCtoDC3;
+ValeurCmp = DCDC;
+IdModule  = ADH_footprints:XP_DCDC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DADE0
+Path = /5B60C764/5B658705
+Reference = DCtoDC4;
+ValeurCmp = DCDC;
+IdModule  = ADH_footprints:XP_DCDC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE08
+Path = /5C2711CF/5C271BEF
+Reference = Dd2;
+ValeurCmp = D;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE76
+Path = /5B5CC0A9/5B60C40B
+Reference = Pd13;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE7F
+Path = /5B5CC0A9/5B622574
+Reference = Pd21;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE91
+Path = /5B5CC0A9/5B622566
+Reference = Pd23;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAE9A
+Path = /5B5CC0A9/5B659125
+Reference = Pd33;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEA3
+Path = /5B5CC0A9/5B659189
+Reference = Pd43;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEAC
+Path = /5C2711CF/5C2713D9
+Reference = Pgnd1;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEB5
+Path = /5C2711CF/5C271C12
+Reference = Pgnd2;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEBE
+Path = /5B657C08
+Reference = Pin1;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_2.5mmdrill_12Gauge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEC7
+Path = /5B657C56
+Reference = Pin2;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_2.5mmdrill_12Gauge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEE2
+Path = /5C2711CF/5C270D00
+Reference = P_detectOut1;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DAEEB
+Path = /5C2711CF/5C271C05
+Reference = P_detectOut2;
+ValeurCmp = PAD;
+IdModule  = ADH_footprints:PAD_0.78mmdrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB03A
+Path = /5B60C764/5B6586F2
+Reference = RDD3;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB04B
+Path = /5B60C764/5B658725
+Reference = RDD4;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB16C
+Path = /5C2711CF/5C267112
+Reference = R_detect1;
+ValeurCmp = 120k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB17D
+Path = /5C2711CF/5C271BE3
+Reference = R_detect2;
+ValeurCmp = 120k;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB25A
+Path = /5C2711CF/5C26FBFB
+Reference = Vdetect1;
+ValeurCmp = PC817;
+IdModule  = Housings_DIP:DIP-4_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4DB272
+Path = /5C2711CF/5C271BE9
+Reference = Vdetect2;
+ValeurCmp = PC817;
+IdModule  = Housings_DIP:DIP-4_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5E4FDF
+Path = /5B5CC0A9/5C466C43
+Reference = Q1;
+ValeurCmp = NMOS;
+IdModule  = ADH_footprints:TO-220-3_FET;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5E5009
+Path = /5B5CC0A9/5C466CC6
+Reference = Q2;
+ValeurCmp = NMOS;
+IdModule  = ADH_footprints:TO-220-3_FET;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5E5033
+Path = /5B5CC0A9/5C44D99F
+Reference = Q3;
+ValeurCmp = CommonS_MOS;
+IdModule  = ADH_footprints:TO-247_CommSFlatOpp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5E5066
+Path = /5B5CC0A9/5C45C881
+Reference = Q4;
+ValeurCmp = CommonS_MOS;
+IdModule  = ADH_footprints:TO-247_CommSFlatOpp;
+EndCmp
+
+EndListe

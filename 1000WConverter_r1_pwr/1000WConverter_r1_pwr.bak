@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+LIBS:1000WConverter_r1_pwr-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3703 1206 1637 794 
+U 5B5CC0A9
+F0 "switches" 60
+F1 "switches.sch" 60
+$EndSheet
+$Comp
+L ADH_custom:PAD Po1
+U 1 1 5B657C08
+P 8615 1612
+F 0 "Po1" H 8590 1612 39  0000 C CNN
+F 1 "PAD" H 8565 1612 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 8565 1612 60  0001 C CNN
+F 3 "" H 8565 1612 60  0001 C CNN
+	1    8615 1612
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADH_custom:PAD Pi1
+U 1 1 5B657C56
+P 2134 1800
+F 0 "Pi1" H 2109 1800 39  0000 C CNN
+F 1 "PAD" H 2084 1800 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 2084 1800 60  0001 C CNN
+F 3 "" H 2084 1800 60  0001 C CNN
+	1    2134 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADH_custom:PAD Po2
+U 1 1 5B657C9A
+P 8615 1812
+F 0 "Po2" H 8590 1812 39  0000 C CNN
+F 1 "PAD" H 8565 1812 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 8565 1812 60  0001 C CNN
+F 3 "" H 8565 1812 60  0001 C CNN
+	1    8615 1812
+	1    0    0    -1  
+$EndComp
+Text GLabel 9165 1612 2    60   Input ~ 0
+OUT
+Text GLabel 1334 1800 0    60   Input ~ 0
+IN
+$Comp
+L ADH_custom:PAD Pi2
+U 1 1 5C49188C
+P 2143 2180
+F 0 "Pi2" H 2118 2180 39  0000 C CNN
+F 1 "PAD" H 2093 2180 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 2093 2180 60  0001 C CNN
+F 3 "" H 2093 2180 60  0001 C CNN
+	1    2143 2180
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C491917
+P 1593 2270
+F 0 "#PWR01" H 1593 2020 50  0001 C CNN
+F 1 "GND" H 1593 2120 50  0000 C CNN
+F 2 "" H 1593 2270 50  0001 C CNN
+F 3 "" H 1593 2270 50  0001 C CNN
+	1    1593 2270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8665 1612 9165 1612
+Wire Wire Line
+	8665 1812 9165 1812
+Wire Wire Line
+	2093 2180 1593 2180
+Wire Wire Line
+	1593 2180 1593 2270
+Wire Wire Line
+	9165 1812 9165 1997
+$Comp
+L power:GNDA #PWR02
+U 1 1 5C491DEC
+P 9165 1997
+F 0 "#PWR02" H 9165 1747 50  0001 C CNN
+F 1 "GNDA" H 9165 1847 50  0000 C CNN
+F 2 "" H 9165 1997 50  0001 C CNN
+F 3 "" H 9165 1997 50  0001 C CNN
+	1    9165 1997
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADH_custom:PAD Pi1
+U 1 1 5D415862
+P 2159 1650
+F 0 "Pi1" H 2134 1650 39  0000 C CNN
+F 1 "PAD" H 2109 1650 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 2109 1650 60  0001 C CNN
+F 3 "" H 2109 1650 60  0001 C CNN
+	1    2159 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADH_custom:PAD Pi2
+U 1 1 5D41586C
+P 2143 2030
+F 0 "Pi2" H 2118 2030 39  0000 C CNN
+F 1 "PAD" H 2093 2030 60  0001 C CNN
+F 2 "ADH_footprints:PAD_2.5mmdrill_12Gauge" H 2093 2030 60  0001 C CNN
+F 3 "" H 2093 2030 60  0001 C CNN
+	1    2143 2030
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2093 2030 1593 2030
+Wire Wire Line
+	1550 1800 1334 1800
+Wire Wire Line
+	2084 1800 1550 1800
+Connection ~ 1550 1800
+Wire Wire Line
+	1550 1650 1550 1800
+Wire Wire Line
+	1550 1650 2109 1650
+Wire Wire Line
+	1593 2030 1593 2180
+Connection ~ 1593 2180
+$EndSCHEMATC

@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"QSWb3,QSWa4,QSW1,QSWa3,QSWb4,QSW2";"SWTO220-GatePwr-Set";6;"SWTO220-GtPwr-Set";;;
+2;"Dd1,Dd2";"D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp";2;"D";;;
+3;"Pgnd1,Pgnd2,P_detectOut1,P_detectOut2";"PAD_0.78mmdrill";4;"PAD";;;
+4;"R_detect1,R_detect2";"R_1206";2;"120k";;;
+5;"Vdetect1,Vdetect2";"DIP-4_W7.62mm";2;"PC817";;;
+6;"Cdci5,Coa5,Cuc1";"C_0805";3;"0.1uF";;;
+7;"Cob5";"CP_Radial_Tantal_D6.0mm_P2.50mm";1;"100uF";;;
+8;"RDD5";"R_0805";1;"10";;;
+9;"U1";"SOIC-14_3.9x8.7mm_Pitch1.27mm";1;"ATTINY24-20SSU";;;
+10;"DCtoDC5";"CUI-DCDC";1;"DCDC";;;
+11;"Po1,Pi1,Pi2,Po2";"PAD_1.5mmdrill";4;"PAD";;;

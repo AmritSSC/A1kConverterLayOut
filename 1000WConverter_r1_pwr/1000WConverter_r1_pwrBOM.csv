@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Co2,Co4";"C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4";2;"10u";;;
+2;"Pi2,Pi1,Po2,Po1";"PAD_2.5mmdrill_12Gauge";4;"PAD";;;
+3;"L1";"L_7.3x7.3_H4.5";1;"1u";;;
+4;"Co1";"C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3";1;"0.1u";;;
+5;"C2";"C_Disc_D7.5mm_W2.5mm_P5.00mm";1;"0.1u";;;
+6;"C1";"CP_Radial_D12.5mm_P5.00mm";1;"2700u";;;
+7;"T1";"TXFMR_WCM40-pushpull";1;"TXFMR_Pushpull";;;
+8;"Q32,Q31,Q41,Q42,Q12,Q22";"TO-220-3_Vertical";6;"NMOS";;;
